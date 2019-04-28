@@ -10,6 +10,7 @@ end
 
 def square_array_2(array)
   array.map do |number|
+    puts number * number
     number * number
 
   end
